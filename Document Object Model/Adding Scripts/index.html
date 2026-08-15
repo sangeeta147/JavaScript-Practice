@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="index.js"></script>
+</head>
+<body>
+
+    <h2>Inline Script</h2>
+
+    <button onclick="alert('Inline JS has been triggered')">Click Me</button>
+
+    <h2>Internal Script</h2>
+
+    <script>function greet() {
+        alert('This comes from internal JS')};
+    greet();
+    </script>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
+
+
+<!--Line 7 and Line 22 both work the same way so just do one way.-->
