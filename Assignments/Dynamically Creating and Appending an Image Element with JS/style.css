@@ -1,0 +1,19 @@
+img {
+    height: 50px;
+    width: 400px;
+};
+
+button {
+    height: 20px;
+    width: 100px;
+};
+
+.main {
+    border: 3px solid black;
+    height: 43rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
